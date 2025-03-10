@@ -1,7 +1,7 @@
 FROM devopsnedeco/fama:1.0.0-beta.4
 
 LABEL \
-  io.hass.name="Fama" \
+  io.hass.name="Open Smart City Home" \
   io.hass.type="addon" \
   io.hass.arch="amd64|armv8"
 

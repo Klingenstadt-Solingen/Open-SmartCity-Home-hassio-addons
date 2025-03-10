@@ -1,8 +1,8 @@
-name: Fama Beta
+name: Open Smart City Home Beta
 version: 1.0.0-beta.5.ha
-slug: fama
+slug: open-smart-city-home
 description: Fama integrates Smart City systems from the German city of Solingen into smart home environments. Enabling seamless connectivity and functionality.
-url: "https://github.com/nedeco/fama"
+url: "https://github.com/Klingenstadt-Solingen/OSCAHome-hassio-addons"
 homeassistant_api: true
 hassio_api: true
 arch:
