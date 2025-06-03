@@ -1,7 +1,7 @@
 FROM klingenstadt/open-smartcity-home:1.0.0
 
 LABEL \
-  io.hass.name="Open Smart City Home" \
+  io.hass.name="Open SmartCity Home" \
   io.hass.type="addon" \
   io.hass.arch="amd64|armv8"
 

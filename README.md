@@ -1,9 +1,9 @@
-# Open Smart City Home Home Assistant Add-ons
+# Open SmartCity Home Home Assistant Add-ons
 
-Open Smart City Home is a software solution designed to bridge weather sensor data with home automation systems. Currently focused on the city of Solingen, Open Smart City Home is designed to receive data from RabbitMQ, process it, and format it for seamless integration with various supported home systems.
+Open SmartCity Home is a software solution designed to bridge weather sensor data with home automation systems. Currently focused on the city of Solingen, Open SmartCity Home is designed to receive data from RabbitMQ, process it, and format it for seamless integration with various supported home systems.
 
 For more details on setup and configuration, check the documentation:
-📖 **[Open Smart City Home Documentation](https://github.com/Klingenstadt-Solingen/Open-SmartCity-Home/blob/development/README.md)**
+📖 **[Open SmartCity Home Documentation](https://github.com/Klingenstadt-Solingen/Open-SmartCity-Home/blob/development/README.md)**
 
 ## Installing
 
@@ -17,10 +17,10 @@ In Home Assistant, go to Configuration > Add-ons, Backups & Supervisor > Add-on 
 
 ## This repository includes the following add-ons:
 
-### [Open Smart City Home](./open_smartcity_home)
-### [Open Smart City Home Beta](./open_smartcity_home_beta)
+### [Open SmartCity Home](./open_smartcity_home)
+### [Open SmartCity Home Beta](./open_smartcity_home_beta)
 
 
 ## License
 
-Open Smart City Home Home Assistant Add-ons is licensed under the [Open Smart City License](LICENSE.md).
+Open SmartCity Home Home Assistant Add-ons is licensed under the [Open Smart City License](LICENSE.md).
