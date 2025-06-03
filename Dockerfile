@@ -1,11 +1,11 @@
-FROM devopsnedeco/fama:1.0.0-beta.4
+FROM klingenstadt/open-smartcity-home:1.0.0
 
 LABEL \
   io.hass.name="Open Smart City Home" \
   io.hass.type="addon" \
   io.hass.arch="amd64|armv8"
 
-ARG BASHIO_VERSION="v0.16.2"
+ARG BASHIO_VERSION="v0.17.0"
 ENV SMART_HOME_TYPE="HA"
 
 RUN \
@@ -26,6 +26,6 @@ RUN \
   && mv /tmp/bashio/lib /usr/lib/bashio \
   && ln -s /usr/lib/bashio/bashio /usr/bin/bashio
 
-COPY ./fama_run.sh /fama_run.sh
+COPY ./open_smartcity_home_run.sh /open_smartcity_home_run.sh
 
-ENTRYPOINT [ "./fama_run.sh" ]
+ENTRYPOINT [ "./open_smartcity_home_run.sh" ]

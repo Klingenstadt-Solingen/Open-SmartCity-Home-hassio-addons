@@ -1,1 +1,18 @@
-# TODO: Add on first release
+configuration:
+  enable_sensor_station:
+    name: Enable Sensor Station
+    description: Activates the synchronization of data from the city sensor stations
+
+  sensor_station_filter_ids:
+    name: Sensor Station Filter IDs
+    description: Filters the sensor stations to be synchronized. Multiple IDs separated by commas.
+
+  smart_home_type:
+    name: Smart Home type
+    description: Sets the Smart Home type so that the data is sent in the correct format.
+
+  home_assistant_discovery_prefix:
+    name: Home Assistant discovery prefix
+
+  mqtt_client_id:
+    name: MQTT Client ID
