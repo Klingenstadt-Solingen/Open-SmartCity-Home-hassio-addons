@@ -3,6 +3,10 @@ configuration:
     name: Sensor Station aktivieren
     description: Aktiviert die Synchronisation der Daten von den städtischen Sensorstationen
 
+  sensor_station_filter_ids:
+    name: Sensor Station Filter IDs
+    description: Filtert die Sensorstationen, die synchronisiert werden sollen. Mehrere IDs durch Komma getrennt.
+
   smart_home_type:
     name: Smart Home Typ
     description: Stellt den Smart Home-Typ ein, damit die Daten im richtigen Format gesendet werden
