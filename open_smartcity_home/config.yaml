@@ -1,5 +1,5 @@
 name: Open SmartCity Home
-version: 1.0.0.ha
+version: 1.0.1.ha
 image: "klingenstadt/open-smartcity-home"
 slug: open-smartcity-home
 description: Open SmartCity Home integrates Smart City systems from the German city of Solingen into smart home environments. Enabling seamless connectivity and functionality.
