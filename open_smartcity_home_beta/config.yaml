@@ -33,6 +33,5 @@ options:
   mqtt_username: "open-smartcity-home"
   mqtt_password: "open-smartcity-home"
 init: false
-boot: auto
 services:
   - "mqtt:need"
