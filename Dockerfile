@@ -1,4 +1,4 @@
-FROM klingenstadt/open-smartcity-home:1.0.0
+FROM klingenstadt/open-smartcity-home:1.0.1
 
 LABEL \
   io.hass.name="Open SmartCity Home" \
