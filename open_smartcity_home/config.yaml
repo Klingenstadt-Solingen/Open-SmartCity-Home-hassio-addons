@@ -18,7 +18,7 @@ schema:
   mqtt_port: "int"
   mqtt_ssl: "bool"
   mqtt_username: "str?"
-  mqtt_password: "str?"
+  mqtt_password: "password?"
   home_assistant_discovery_prefix: "str"
   debug: "bool"
 options:
