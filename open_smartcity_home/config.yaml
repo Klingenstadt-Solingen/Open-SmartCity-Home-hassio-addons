@@ -11,7 +11,7 @@ arch:
   - amd64
 schema:
   enable_sensor_station: "bool"
-  sensor_station_filter_ids: "str"
+  sensor_station_filter_ids: "str?"
   smart_home_type: "list(HA|IB)"
   mqtt_client_id: "str"
   mqtt_host: "str?"
