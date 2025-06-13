@@ -1,3 +1,7 @@
+### 1.0.2
+
+- Update to 1.0.2 [release notes](https://github.com/Klingenstadt-Solingen/Open-SmartCity-Home/releases/tag/1.0.2)
+- 
 ### 1.0.1
 
 - Update to 1.0.1 [release notes](https://github.com/Klingenstadt-Solingen/Open-SmartCity-Home/releases/tag/1.0.1)
