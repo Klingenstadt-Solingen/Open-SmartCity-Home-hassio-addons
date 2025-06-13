@@ -1,7 +1,7 @@
 name: Open SmartCity Home Beta
 version: 1.0.2.ha
 image: "klingenstadt/open-smartcity-home"
-slug: open-smartcity-home
+slug: open-smartcity-home-beta
 description: Open SmartCity Home integrates Smart City systems from the German city of Solingen into smart home environments. Enabling seamless connectivity and functionality.
 url: "https://github.com/Klingenstadt-Solingen/Open-SmartCity-Home-hassio-addons"
 homeassistant_api: true
@@ -11,14 +11,14 @@ arch:
   - amd64
 schema:
   enable_sensor_station: "bool"
-  sensor_station_filter_ids: "str"
+  sensor_station_filter_ids: "str?"
   smart_home_type: "list(HA|IB)"
   mqtt_client_id: "str"
   mqtt_host: "str?"
   mqtt_port: "int"
   mqtt_ssl: "bool"
   mqtt_username: "str?"
-  mqtt_password: "str?"
+  mqtt_password: "password?"
   home_assistant_discovery_prefix: "str"
   debug: "bool"
 options:
@@ -28,6 +28,7 @@ options:
   mqtt_client_id: open-smartcity-home
   home_assistant_discovery_prefix: "homeassistant"
   debug: false
+  mqtt_host: " "
   mqtt_port: 1883
   mqtt_ssl: false
   mqtt_username: "open-smartcity-home"
