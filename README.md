@@ -1,6 +1,6 @@
 # Open SmartCity Home Home Assistant Add-ons
 
-Open SmartCity Home is a software solution designed to bridge weather sensor data with home automation systems. Currently focused on the city of Solingen, Open SmartCity Home is designed to receive data from RabbitMQ, process it, and format it for seamless integration with various supported home systems.
+Open SmartCity Home is a software solution designed to bridge sensor data with home automation systems. Currently focused on the city of Solingen, Open SmartCity Home is designed to receive data from RabbitMQ, process it, and format it for seamless integration with various supported home systems.
 
 For more details on setup and configuration, check the documentation:
 📖 **[Open SmartCity Home Documentation](https://github.com/Klingenstadt-Solingen/Open-SmartCity-Home/blob/development/README.md)**
