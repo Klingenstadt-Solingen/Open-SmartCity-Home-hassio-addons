@@ -24,3 +24,7 @@ In Home Assistant, go to Configuration > Add-ons, Backups & Supervisor > Add-on 
 ## License
 
 Open SmartCity Home Home Assistant Add-ons is licensed under the [Open Smart City License](LICENSE.md).
+
+## Legal notices and data reliability
+
+Before using the data, please note the legal information [here](Legal-Notices-and-Data-Reliability.md).
